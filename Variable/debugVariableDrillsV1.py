@@ -19,8 +19,8 @@ The function should print the sentence plus the volume and
 return the volume.
 '''
 def volumeCalculator(height, width, depth):
-    volume = depth * height * width
     area = height * width
+    volume = depth * area
     sentence = "The volume of this object is: "
     print(sentence + volume)
     return volume
