@@ -1,0 +1,18 @@
+'''
+This program is meant to take survey information.
+@author: Araceli Negrete-Garcia
+'''
+name = input("What is your name?")
+print(name)
+
+color = input("What is your favorite color?")
+print(color)
+
+city = input("What city did you grow up in?")
+print(city)
+
+friend = input("What is your best friends name?")
+print(friend)
+
+hair = input("What color hair do you have?")
+print(hair)
